@@ -3,7 +3,7 @@ import { Box, CardContent, CardMedia, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { demoProfilePicture } from '../util/constants'
 
-export default function ChannelCard ({ channelDetail }) {
+export default function ChannelCard ({ channelDetail, marginTop }) {
   return (
     <Box
       sx={{
@@ -13,6 +13,9 @@ export default function ChannelCard ({ channelDetail }) {
         justifyContent: 'center',
         alignItems: 'center',
         width: { xs: '356px', md: '320px' },
+        height: '326px',
+        margin: 'auto',
+        marginTop
       }}
     >
       <Link to={`channel/${channelDetail?.id?.channelId}`}>
