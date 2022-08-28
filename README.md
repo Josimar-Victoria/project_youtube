@@ -1,5 +1,8 @@
-# Getting Started with Create React App
+# Yotube project clon
 
+https://effervescent-tiramisu-c979de.netlify.app/
+
+<img src='https://github.com/Josimar-Victoria/project_youtube/blob/main/src/util/Captura%20de%20pantalla%20de%202022-08-28%2012-43-45.png?raw=true' alt='img' />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
